@@ -13,7 +13,7 @@ def _recv_exact(sock: socket.socket, length: int) -> Optional[bytes]:
         data += chunk
     return data
 
-// frame function
+#frame function
 def send_frame(sock: socket.socket, obj: Dict[str, Any]) -> None:
     payload = json.dumps(obj).encode("utf-8")
     header = struct.pack("!I", len(payload))
