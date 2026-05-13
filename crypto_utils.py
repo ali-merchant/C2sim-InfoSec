@@ -3,7 +3,7 @@ import hashlib
 import json
 import os
 from typing import Any, Dict
-
+#kci bi
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 
