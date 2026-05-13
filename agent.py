@@ -82,7 +82,7 @@ class C2Agent:
 
         return None
 
-
+#MAIN fucntion
 if __name__ == "__main__":
     try:
         agent = C2Agent()
