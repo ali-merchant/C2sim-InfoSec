@@ -8,7 +8,7 @@ HOST = "127.0.0.1"
 PORT = 9999
 SHARED_SECRET = b"RedTeamSecretKey12345!"
 AES_KEY = derive_key(SHARED_SECRET)
-
+# hi 
 
 class C2Server:
     def __init__(self):
