@@ -1,4 +1,4 @@
-# Secure Command-and-Control Communication Simulator
+# Secure Command and Control Communication Simulator
 
 ## Project Overview
 
