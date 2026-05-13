@@ -73,8 +73,9 @@ class C2Server:
         msg_type = message.get("type", "unknown")
         payload = message.get("payload", "")
         output = message.get("output", "")
+        status = message.get("status","")
 
-        print(f"[{client['id']}] {msg_type}: {payload}\noutput{output}")
+        print(f"[{client['id']}] {msg_type}: {payload}\noutput{output}\nstatus : {status}")
 
     def send_to_client(self, client, message):
         packet = encrypt_payload(AES_KEY, message)
